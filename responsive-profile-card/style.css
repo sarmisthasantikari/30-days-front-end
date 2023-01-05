@@ -20,7 +20,8 @@
     text-align: center;
     background-color: #fff;
 }
-.vr{
+
+.vr {
     border-right: 1px solid black;
 }
 
@@ -116,9 +117,10 @@
 @media screen and (max-width: 575px) {
     .card {
         width: 96%;
+
     }
 
-    .description {
+    .body {
         padding: 10px 20px;
     }
 
