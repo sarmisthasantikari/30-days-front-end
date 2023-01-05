@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(images/OIP.jpg) no-repeat;
+    background: url(images/n.jpeg) no-repeat;
     background-size: cover;
 }
 
@@ -33,23 +33,28 @@ body {
     border-bottom: 1px solid green;
 
 }
-.btn{
-    width: 100%;
-    background: none;
-    border: 2px solid black;
-    color: white;
-    padding: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 12px 0;
-}
-btninput{
-    width: 80%;
-}
 .text-input{
+    border: none;
+    outline: none;
+    background: none;
     font-size: 18px;
     color: white;
     width: 80%;
     float: left;
     margin:  0 10px;
 }
+.text-box i{
+    float: left;
+    width: 26px;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid green;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
