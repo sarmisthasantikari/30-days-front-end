@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(images/n.jpeg) no-repeat;
+    background: url(images/new.jpeg) no-repeat;
     background-size: cover;
 }
 
@@ -17,8 +17,9 @@ body {
 
 .h1 {
     font-size: 40px;
+    font-family: Open+sans-serif;
     float: left;
-    border-bottom: 6px solid green;
+    border-bottom: 6px solid #0bd2a0;
     margin-bottom: 50px;
     padding: 13px 0;
 }
@@ -30,7 +31,7 @@ body {
     font-size: 20px;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #0bd2a0;
 
 }
 .text-input{
@@ -48,13 +49,14 @@ body {
     width: 26px;
     text-align: center;
 }
-.btn{
+.button1{
     width: 100%;
     background: none;
-    border: 2px solid green;
+    border: 2px solid #0bd2a0;
     padding: 5px;
     font-size: 18px;
     cursor: pointer;
+    color: white;
     margin: 12px 0;
 }
 
