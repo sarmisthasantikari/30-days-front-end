@@ -12,7 +12,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(2, 9, 16);
+    background-color:#444444;
     height: 40px;
     border-radius: 50px;
     padding: 10px;
@@ -20,11 +20,17 @@ body {
 
 .search-box:hover>.search-text {
     width: 200px;
+
+}
+.search-box:hover>.search-btn {
+    background: white;
 }
 
 .search-btn {
     float: right;
     height: 40px;
+    background:#444444;
+    color: #f44336;
     width: 40px;
     border-radius: 80px;
     transition: 0.4s;
