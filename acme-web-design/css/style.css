@@ -1,50 +1,114 @@
- *{
-    padding: 0;
-    margin: 0;
- }   
-body{
-    background-color: rgb(226, 235, 240);
-    font: 15px/1.5 Arial,Helvetica, sans-serif;;
+* {
+  padding: 0;
+  margin: 0;
 }
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.body {
+  background-color: rgb(226, 235, 240);
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
 }
-header{
-    min-height: 70px;
-    background-color: rgb(11, 53, 72);
-    color: white;
-    padding-top: 30px;
-    border-bottom: rgb(193, 73, 8) 3px solid;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
-header a{
-    font-size: 16px;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
+.header {
+  min-height: 70px;
+  background-color: rgb(11, 53, 72);
+  color: white;
+  padding-top: 30px;
+  border-bottom: rgb(193, 73, 8) 3px solid;
+}
+.header a {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
+.header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
-header #branding{
-    float: left;
+.header #branding {
+  float: left;
 }
-header nav{
-    float: right;
-    margin-top: 10px;
+.header nav {
+  float: right;
+  margin-top: 10px;
 }
-header .highlight ,header .current a{
-    color: rgb(230, 89, 14) ;
-    font-weight: bold;
+.image {
+  height: 70vh;
+  width: 100%;
 }
-header a:hover{
-color: #cccccc;
-font-weight: bold;
+.header .highlight,
+header .current a {
+  color: rgb(230, 89, 14);
+  font-weight: bold;
 }
-#showcase{
-    min-height: 400px;
+.header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+#showcase {
+  min-height: 400px;
+  background: url(../img/4.png) no-repeat;
+  text-align: center;
+  color: white;
+}
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p {
+  font-size: 28px;
+}
+#newsletter {
+  padding: 10px;
+  color: white;
+  background-color: rgb(49, 47, 47);
+}
+#newsletter h1 {
+  float: left;
+  margin-top: 10px;
+}
+#newsletter form {
+  float: right;
+}
+#newsletter .email {
+  padding: 15px;
+  height: 10px;
+  width: 200px;
+}
+#newsletter .btn {
+  margin: 10px;
+  height: 40px;
+  width: 80px;
+  color: white;
+  background: red;
+}
+#boxes {
+  margin-top: 20px;
+  padding: 15px;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+.img {
+  height: 80px;
+  width: 30%;
+}
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  height: 50px;
+  background: rgb(208, 52, 13);
+}
+.p {
+  padding-top: 15px;
 }
