@@ -104,24 +104,33 @@ header .current a {
 }
 
 /* sidebar*/
-article#main-col{
-float: left;
-width: 65%;
-margin-top: 20px;
+article#main-col {
+  float: left;
+  width: 65%;
+  margin-top: 20px;
 }
-aside#sidebar{
-float: right;
-width: 30%;
-margin-top: 20px;
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 20px;
 }
-.dark{
-  background: rgb(36, 35, 35);
+.dark {
+  background: rgb(63, 62, 62);
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
 }
-
+/* services box*/
+.list-box {
+  border: 1px solid rgb(73, 72, 72);
+  padding: 10px;
+  margin: 10px;
+  background: rgb(203, 200, 200);
+}
+.quote .name {
+  width: 90%;
+}
 .footer {
   margin-top: 10px;
   text-align: center;
@@ -131,4 +140,52 @@ margin-top: 20px;
 }
 .p {
   padding-top: 15px;
+}
+@media only screen and (max-width: 900px) {
+  .header #branding,
+  .header nav {
+    display: block;
+  }
+  .header nav {
+    width: 90%;
+    margin: auto;
+  }
+  .header #branding {
+    padding-left: 15px;
+  }
+  #showcase h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  #showcase p {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  #newsletter .email,
+  #newsletter .btn {
+    display: block;
+  }
+  #boxes .box {
+    width: 100%;
+  }
+  #newsletter form {
+    float: left;
+  }
+  #sidebar {
+    display: block;
+  }
+
+  .header li{
+    padding: 0 10px;
+  }
+  .header{
+    padding-top: 10px;
+  }
+  #newsletter .btn{
+    margin-left: 5px;
+  }
 }
