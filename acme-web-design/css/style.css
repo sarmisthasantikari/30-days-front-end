@@ -102,6 +102,26 @@ header .current a {
   height: 80px;
   width: 30%;
 }
+
+/* sidebar*/
+article#main-col{
+float: left;
+width: 65%;
+margin-top: 20px;
+}
+aside#sidebar{
+float: right;
+width: 30%;
+margin-top: 20px;
+}
+.dark{
+  background: rgb(36, 35, 35);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
 .footer {
   margin-top: 10px;
   text-align: center;
