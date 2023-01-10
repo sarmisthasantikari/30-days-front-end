@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: black;
+  font-family: "Work Sans", sans-serif;
+}
+
+/*this is the left side of the page*/
+.article1 {
+  float: left;
+  width: 40%;
+  background: black;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.img {
+  background: url(https://app.pluralsight.com/id/img/login-logo.png) no-repeat;
+  height: 75px;
+  width: 65%;
+  margin-top: 60px;
+  border: none;
+}
+
+/*this is for the form*/
+.input1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Email-container{
+    margin-bottom: 5px;
+    padding-left: 0;
+    float: left;
+    width: 65%;
+}
+.Password-container{
+    margin-bottom: 5px;
+    padding-left: 0;
+    float: left;
+    width: 53%;
+}
+.label {
+  color: white;
+  margin-bottom: 15px;
+}
+.input {
+  background: none;
+  width: 60%;
+  height: 40px;
+}
+/*this is for the button*/
+.btncontainer {
+  margin: 20px 0 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.btn {
+  background: #3d85c6;
+  color: white;
+  width: 60%;
+  padding-top: 8px;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*this is for the anchor tags*/
+.anchorconatinermain {
+  margin: 20px 0 20px;
+  padding: 20px 0 20px;
+}
+.anchor-container {
+  margin: 30px 0 15px 0;
+}
+.anchor {
+  color: #3d85c6;
+  font-size: 16px;
+  margin: 20px 0 20px;
+  padding: 20px 0 20px;
+  text-decoration: none;
+}
+/*this is for the second button*/
+.account-container{
+    /* border-top: 0.5px solid white; */
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-2 {
+  background: #443c3c;
+  color: white;
+  width: 60%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*this is footer section*/
+.footer {
+  padding-top: 17px;
+}
+.copyright-margin{
+    margin-bottom: 5px;
+}
+.copyright {
+  color: white;
+  font-size: 12px;
+}
+.terms-of-use {
+  color: white;
+  font-size: 12px;
+}
+
+/*this is second side of the page*/
+.article2 {
+  float: right;
+  width: 60%;
+  background: url(https://www.pluralsight.com/content/dam/pluralsight2/target/login/navigate/login-background.png);
+  height: 100vh;
+  justify-content: center;
+}
+.image {
+  padding: 15% 15% 0 10%;
+  height: 60%;
+  width: 80%;
+}
+.anchor1-container {
+  margin-top: 10px;
+}
+.anchor1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: #dd1c8d;
+  text-decoration: none;
+  height: 60px;
+  width: 80px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 40%;
+}
