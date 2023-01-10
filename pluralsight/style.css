@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   height: 100vh;
   width: 100vw;
@@ -21,11 +22,17 @@ body {
 }
 
 .img {
-  background: url(https://app.pluralsight.com/id/img/login-logo.png) no-repeat;
-  height: 75px;
-  width: 65%;
+  width: 55%;
   margin-top: 60px;
   border: none;
+}
+
+.floating-text {
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
 }
 
 /*this is for the form*/
@@ -33,43 +40,41 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.Email-container{
-    margin-bottom: 5px;
-    padding-left: 0;
-    float: left;
-    width: 65%;
+.label-container {
+  margin-bottom: 5px;
+  padding-left: 0;
+  float: left;
 }
-.Password-container{
-    margin-bottom: 5px;
-    padding-left: 0;
-    float: left;
-    width: 53%;
-}
+
 .label {
   color: white;
   margin-bottom: 15px;
 }
 .input {
   background: none;
-  width: 60%;
+  width: 100%;
   height: 40px;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
 }
+
+.login-form {
+  width: 60%;
+  margin: auto;
+}
+
 /*this is for the button*/
 .btncontainer {
   margin: 20px 0 20px;
-  padding-top: 10px;
-  padding-bottom: 30px;
 }
 .btn {
   background: #3d85c6;
   color: white;
-  width: 60%;
-  padding-top: 8px;
   border: none;
   height: 40px;
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
+  width: 100%;
 }
 /*this is for the anchor tags*/
 .anchorconatinermain {
@@ -87,11 +92,11 @@ body {
   text-decoration: none;
 }
 /*this is for the second button*/
-.account-container{
-    /* border-top: 0.5px solid white; */
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.account-container {
+  /* border-top: 0.5px solid white; */
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .btn-2 {
   background: #443c3c;
@@ -108,8 +113,8 @@ body {
 .footer {
   padding-top: 17px;
 }
-.copyright-margin{
-    margin-bottom: 5px;
+.copyright-margin {
+  margin-bottom: 5px;
 }
 .copyright {
   color: white;
@@ -130,7 +135,7 @@ body {
 }
 .image {
   padding: 15% 15% 0 10%;
-  height: 60%;
+
   width: 80%;
 }
 .anchor1-container {
@@ -147,4 +152,32 @@ body {
   padding: 20px;
   border-radius: 5px;
   margin-left: 40%;
+}
+@media only screen and (max-width: 900px) {
+  .img {
+    height: 45px;
+    width: 45%;
+  }
+  .label-container {
+    margin-bottom: 5px;
+    padding-left: 0;
+    float: left;
+    width: 85%;
+  }
+  .label-container {
+    margin-bottom: 5px;
+    padding-left: 0;
+    float: left;
+    width: 20%;
+  }
+  .label {
+    float: none;
+  }
+  .btncontainer {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .anchorconatinermain {
+    margin: 10px 0 10px;
+  }
 }
